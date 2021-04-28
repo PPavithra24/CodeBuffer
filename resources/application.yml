@@ -1,0 +1,10 @@
+spring:
+   application:
+      name:
+         BankManagementSystem
+server:
+   port: 8080
+
+logging:
+      file: C:\Users\user\logs\elk-stack.log
+      

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Built-By: user
+Build-Jdk: 15.0.1
+Class-Path: lib/vertx-web-3.5.1.jar lib/vertx-auth-common-3.5.1.jar lib/
+ vertx-bridge-common-3.5.1.jar lib/vertx-core-3.5.1.jar lib/netty-common
+ -4.1.19.Final.jar lib/netty-buffer-4.1.19.Final.jar lib/netty-transport
+ -4.1.19.Final.jar lib/netty-handler-4.1.19.Final.jar lib/netty-codec-4.
+ 1.19.Final.jar lib/netty-handler-proxy-4.1.19.Final.jar lib/netty-codec
+ -socks-4.1.19.Final.jar lib/netty-codec-http-4.1.19.Final.jar lib/netty
+ -codec-http2-4.1.19.Final.jar lib/netty-resolver-4.1.19.Final.jar lib/n
+ etty-resolver-dns-4.1.19.Final.jar lib/netty-codec-dns-4.1.19.Final.jar
+  lib/jackson-core-2.9.3.jar lib/jackson-databind-2.9.3.jar lib/jackson-
+ annotations-2.9.0.jar lib/java-client-2.6.2.jar lib/core-io-1.6.1.jar l
+ ib/couchbase-driver-0.0.9.jar lib/diana-document-0.0.9.jar lib/diana-co
+ re-0.0.9.jar lib/jnosql-query-antlr-0.0.9.jar lib/antlr4-runtime-4.7.2.
+ jar lib/diana-key-value-0.0.9.jar lib/diana-driver-commons-0.0.9.jar li
+ b/artemis-document-0.0.9.jar lib/artemis-core-0.0.9.jar lib/jnosql-quer
+ y-api-0.0.9.jar lib/rxjava-1.3.7.jar lib/opentracing-api-0.31.0.jar lib
+ /commons-logging-1.2.jar lib/cucumber-java-6.10.2.jar lib/cucumber-core
+ -6.10.2.jar lib/cucumber-gherkin-6.10.2.jar lib/cucumber-gherkin-messag
+ es-6.10.2.jar lib/messages-14.0.1.jar lib/tag-expressions-3.0.0.jar lib
+ /cucumber-expressions-10.3.0.jar lib/datatable-3.5.0.jar lib/cucumber-p
+ lugin-6.10.2.jar lib/docstring-6.10.2.jar lib/html-formatter-12.0.0.jar
+  lib/create-meta-3.0.0.jar lib/apiguardian-api-1.1.1.jar lib/javax.ws.r
+ s-api-2.1.1.jar lib/spring-context-4.3.4.RELEASE.jar lib/spring-aop-4.3
+ .4.RELEASE.jar lib/spring-beans-4.3.4.RELEASE.jar lib/spring-core-4.3.4
+ .RELEASE.jar lib/spring-expression-4.3.4.RELEASE.jar lib/spring-web-4.3
+ .4.RELEASE.jar
+Main-Class: com.example.BankManagementSystem.App
+Created-By: Maven Integration for Eclipse
+

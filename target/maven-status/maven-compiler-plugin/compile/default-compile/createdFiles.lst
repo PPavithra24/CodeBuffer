@@ -1,0 +1,5 @@
+com\example\BankManagementSystem\Model\Login.class
+com\example\BankManagementSystem\Model\LoanDetails.class
+com\example\BankManagementSystem\App.class
+com\example\BankManagementSystem\Model\Register.class
+com\example\BankManagementSystem\Model\Customer.class

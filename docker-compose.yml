@@ -1,0 +1,31 @@
+version: '3'
+ 
+services:
+   
+    spring-boot:
+        image: 161112291/dailycodebuffer:my-docker-image
+        ports:
+            - "8080:8080"
+        environment:
+            - COUCHBASE_HOST=127.0.0.1
+            - COUCHBASE_BUCKET=example  
+        depends_on:
+            - couchbase
+        restart: always
+        
+    couchbase:
+        image: 161112291/dailycodebuffer:couchbase
+        ports:
+            - "8091:8091"
+            - "8092:8092"
+            - "8093-8093"   
+        environment:
+            - COUCHBASE_ADMINISTRATOR_USERNAME=root
+            - COUCHBASE_ADMINISTRATOR_PASSWORD=123456
+        volumes:
+            - couchbase-database-data-volume:/var/lib/couchbase
+
+# Volumes
+volumes:
+  couchbase-database-data-volume:
+  

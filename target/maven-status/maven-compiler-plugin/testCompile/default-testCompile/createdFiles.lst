@@ -1,0 +1,7 @@
+com\example\BankManagementSystem\AppTest.class
+steps\Logout_steps.class
+testRunner\TestRunner.class
+steps\Register_steps.class
+steps\Login_steps.class
+steps\ApplyLoan_steps.class
+steps\Update_steps.class

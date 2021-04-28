@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: spring-boot
+  name: spring-boot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: spring-boot
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: spring-boot
+    spec:
+      containers:
+      - env:
+        - name: COUCHBASE_BUCKET
+          value: example
+        - name: COUCHBASE_HOST
+          value: 127.0.0.1
+        image: 161112291/dailycodebuffer:my-docker-image
+        imagePullPolicy: "Never"
+        name: spring-boot
+        ports:
+        - containerPort: 8080
+        resources: {}
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
+status: {}
